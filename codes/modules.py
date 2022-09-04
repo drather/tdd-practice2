@@ -3,13 +3,16 @@ class TestCase:
         self.name = name
 
     def setUp(self):
-        pass
+        print("setUp method done")
 
     def run(self):
+        print("TestCase.run method start")
         self.setUp()
         method = getattr(self, self.name)
         method()
 
+    def tearDown(self):
+        pass
 
 
 class WasRun(TestCase):
@@ -19,12 +22,8 @@ class WasRun(TestCase):
 
     def setUp(self):
         self.wasRun = None
-        self.wasSetUp = 1
+        self.log = "setUp " + "testMethod "
 
     def testMethod(self):
         self.wasRun = 1
-
-
-
-
 
