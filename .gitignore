@@ -154,7 +154,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test_ / coverage reports
+# Unit my_test / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -334,27 +334,5 @@ cython_debug/
 *noot
 *mies
 
-# Other names that would make sense
-test_
-*testsdir
-*testsfile
-*testsfiles
-test_
-*testdir
-*testfile
-*testfiles
-*testing
-*testingdir
-*testingfile
-*testingfiles
-*temp
-*tempdir
-*tempfile
-*tempfiles
-*tmp
-*tmpdir
-*tmpfile
-*tmpfiles
-*lol
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,python,test
